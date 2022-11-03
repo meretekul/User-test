@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    <title>Copypaste</title>
+</head>
+
+<body>
+    <h1>Kopier teksten som er merket <span style="color: red;">rødt</span> og lim inn i tekstboksen til høyre</h1>
+    <h2>NB! Husk å ta med punktumet. Pass på å ikke ha mellomrom til slutt. Hurtigtaster på tastaturet skal IKKE brukes!</h2>
+
+
+<form action="/drag.html" onsubmit="return emptyText()" method="get">
+<div class="container">
+    <p>
+    <span id="copy" style="color: red;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel orci tortor. 
+    Proin vel sollicitudin dui. Quisque et lorem at libero sagittis tincidunt vel vitae nisl. 
+    Etiam a odio mauris. Vestibulum a hendrerit ligula, sit amet tincidunt quam. 
+    Etiam ipsum nulla, ultricies non eros at, mollis gravida ipsum. Cras volutpat posuere nulla ac vulputate. 
+    Morbi sodales velit non sagittis bibendum.
+    Aenean facilisis pharetra lacus.</span>
+    Fusce lacinia scelerisque diam sed varius. 
+        Donec congue, magna vitae porttitor molestie, eros purus placerat metus, et dictum eros enim luctus arcu. 
+        Integer at laoreet enim. Nullam varius tincidunt tellus, eget cursus nibh eleifend ac. Curabitur sed congue orci. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+</div>
+
+    <div class="container">
+        <textarea id="paste" type="text" placeholder="Lim inn her"></textarea>
+    </div>
+    <span style="color:red" id="errorText"></span> <br>
+    <button class="button4" type="submit" onclick="emptyText()">Submit</button>
+</form>
+</body>
+</html>

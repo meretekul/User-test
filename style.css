@@ -1,0 +1,205 @@
+h1 {
+    text-align: center;
+    margin-top: 70px;
+    line-height: 0;
+}
+h2 {
+    text-align: center;
+    line-height: 2;
+}
+
+.button1 {
+    margin: 8px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    background-color: lightblue;
+    margin: 50px 670px;
+    width: 200px;
+}
+
+.wrap {
+    margin: 50px auto;
+    width: 400px;
+    height: 400px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.inner {
+    position: relative;
+    height: 50000px;
+    width: 50000px;
+    background: rgb(11, 11, 11);
+}
+  
+section {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    background: yellow;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.answer {
+    margin: 48px 550px;
+}
+
+.button2 {
+    width: 95px;
+    margin: 10px 0px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+.input {
+    padding: 5px;
+    width: 80px;
+}
+
+.form1 {
+    width: 20%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.form2 {
+    width: 20%;
+    float: left;
+    margin-top: 50px;
+}
+.form3 {
+    width: 20%;
+    float: left;
+    margin-top: 50px;
+}
+
+.button3 {
+    margin: 8px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: lightblue;
+    margin: 50px 730px;
+}
+
+
+.container {
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+textarea {
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+p {
+    font-size: large;
+    line-height: 1.6;
+}
+
+#errorText {
+    margin-left: 100px;
+}
+
+.button4 {
+    width: 150px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: lightblue;
+    margin: 10px 820px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+input:hover {
+    cursor: pointer;
+}
+img:hover {
+    cursor: pointer;
+}
+
+.drag-area {
+    padding: 40px 120px;
+}
+
+#div1 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    float: right;
+}
+#div2 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    float: right;
+}
+#div3 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    float: right;
+ }
+#div4 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    float: right;
+}
+#div5 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    float: right;
+}
+
+.button5 {
+    width: 120px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: lightblue;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#checkmark {
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+    justify-content: center;
+}
+
+.button6 {
+    width: 120px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: lightblue;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
